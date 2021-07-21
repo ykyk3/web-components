@@ -1,0 +1,15 @@
+web-components {
+    height: 20px;
+    width: 100px;
+    display: block;
+}
+
+web-components[data-state] {
+    background-color: blue;
+}
+web-components[data-state='active'] {
+    background-color: red;
+}
+web-components[data-state='unactive'] {
+    background-color: blue;
+}
