@@ -6,10 +6,17 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>web components test</title>
         <!-- <link rel="import" href="component.html"> -->
-        <script type="text/javascript" src="src/main.js"></script>
+        <script type="module" src="src/main.js"></script>
         <link rel="stylesheet" href="style.css" />
     </head>
     <body>
-        <web-components data-state />
+        <!-- <web-components data-state /> -->
+        <user-profile
+            name="山田 太郎"
+            gender="male"
+            age="30"
+            icon="https://placehold.jp/150x150.png"
+            description="祇園精舎の鐘の声　諸行無常の響きあり。娑羅双樹の花の色　盛者必衰の理をあらはす。¥n【読み】ぎおんしょうじゃのかねのこえ，しょぎょうむじょうのひびきあり。しゃらそうじゅのはなのいろ，じょうしゃひっすいのことわりをあらわす。¥n【意味】祇園精舎の鐘の音には，この世のすべての現象は絶えず変化していくものだという響きがある。沙羅双樹の花の色は，どんなに勢いが盛んな者も必ず衰えるものであるという道理をあらわしている。"
+        />
     </body>
 </html>
